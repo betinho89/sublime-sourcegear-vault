@@ -6,6 +6,8 @@
 
 This is a Sublime Text plugin allowing have a interface between Vault and Sublime.
 
+![Screenshot](http://betinho89.com/sublime-sourcegear-vault/plugin_sublime_vault.png)
+
 The plugin allows you to perform five frequently used vault operations.
 1. `Get Latest version`. Retrieve the latest version of files or folders in the repository.
 2. `Check out`. Checkout files from the repository.
