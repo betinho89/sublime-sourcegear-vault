@@ -2,27 +2,27 @@
   "caption": "Vault",
   "children": [
     {
-      "caption": "Get Latest version...",
+      "caption": "Get Latest version",
       "command": "getlastversion",
       "args": {"paths": []},
     },
     {
-      "caption": "Check out...",
+      "caption": "Check out",
       "command": "checkout",
       "args": {"paths": []},
     },
     {
-      "caption": "Check in...",
+      "caption": "Check in",
       "command": "checkin",
       "args": {"paths": []},
     },
     {
-      "caption": "Undo Check out...",
+      "caption": "Undo Check out",
       "command": "undocheckout",
       "args": {"paths": []},
     },
     {
-      "caption": "Get Information...",
+      "caption": "Properties",
       "command": "listobjectproperties",
       "args": {"paths": []},
     },
