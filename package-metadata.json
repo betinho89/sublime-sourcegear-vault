@@ -2,7 +2,7 @@
   "sublime_text": "*",
   "dependencies": [],
   "platforms": ["*"],
-  "description": "Provides an interface between Sourcegear Vault and Sublime",
+  "description": "This is a Sublime Text plugin allowing have a interface between Vault and Sublime.",
   "version": "1.0.0",
-  "url": ""
+  "url": "https://github.com/betinho89/sublime-sourcegear-vault/"
 }
