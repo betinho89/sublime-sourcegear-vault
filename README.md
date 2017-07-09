@@ -59,3 +59,9 @@ Manually:
 ## License
 
 Licensed under the MIT license.
+
+## Donations
+
+If you like this plugin and want to show your appreciation, you can buy me a coffee.
+
+[![PayPal][https://www.paypalobjects.com/es_XC/MX/i/btn/btn_donateCC_LG.gif]][https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5BMAPEVBX9SJJ]
