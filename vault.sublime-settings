@@ -1,0 +1,51 @@
+{
+  "host": "",
+  "isdebug": true,
+  "password": "",
+  "repositoryname": "",
+  "show_success": true,
+  "ssl": false,
+  "username": "",
+  "vault_path": "",
+
+  // Retrieve files or folders from the repository.
+  // See a list of possible options in http://download.sourcegear.com/misc/vault/help/client/clc.htm#GET
+  "get": {
+    "-backup": "no",
+    "-eol": "none",
+    "-makereadonly": "",
+    "-merge": "overwrite",
+    "success": "Finished get latest of PATH",
+  },
+
+  // Checkout files from the repository.
+  // See a list of possible options in http://download.sourcegear.com/misc/vault/help/client/clc.htm#CHECKOUT
+  "checkout": {
+    "-backup": "no",
+    "-eol": "none",
+    "-exclusive": "",
+    "-merge": "overwrite",
+    "success": "Checked out of PATH",
+  },
+
+  // Commit items in the pending changeset.
+  // See a list of possible options in http://download.sourcegear.com/misc/vault/help/client/clc.htm#CHECKIN
+  "checkin": {
+    "-comment": "COMMENTSTRING",
+    "success": "Check in PATH \nTransaction completed successfully"
+  },
+
+  // Undo checkout (revert changes).
+  // See a list of possible options in http://download.sourcegear.com/misc/vault/help/client/clc.htm#UNDOCHECKOUT
+  "undocheckout": {
+    "-backup": "no",
+    "success": "Undoing check out of PATH",
+  },
+
+  // Show properties of a file or folder on the server.
+  // See a list of possible options in http://download.sourcegear.com/misc/vault/help/client/clc.htm#LISTOBJECTPROPERTIES
+  "listobjectproperties": {
+    "info": "Properties\nName: NAME\nLocal path: PATH\nServer full path: FULLPATH\nVersion: VERSION\nModified date: MODIFIEDDATE",
+    "keys": ["name", "fullpath", "version", "modifieddate"],
+  },
+}

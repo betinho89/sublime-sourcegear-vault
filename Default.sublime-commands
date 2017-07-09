@@ -1,0 +1,16 @@
+[
+    {
+        "caption": "Preferences: Sourcegear Vault – Default",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/sourcegear-vault/vault.sublime-settings"
+        }
+    },
+    {
+        "caption": "Preferences: Sourcegear Vault – User",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/vault.sublime-settings"
+        }
+    },
+]

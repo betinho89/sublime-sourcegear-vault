@@ -1,0 +1,30 @@
+[{
+  "caption": "Vault",
+  "children": [
+    {
+      "caption": "Get Latest version...",
+      "command": "getlastversion",
+      "args": {"paths": []},
+    },
+    {
+      "caption": "Check out...",
+      "command": "checkout",
+      "args": {"paths": []},
+    },
+    {
+      "caption": "Check in...",
+      "command": "checkin",
+      "args": {"paths": []},
+    },
+    {
+      "caption": "Undo Check out...",
+      "command": "undocheckout",
+      "args": {"paths": []},
+    },
+    {
+      "caption": "Get Information...",
+      "command": "listobjectproperties",
+      "args": {"paths": []},
+    },
+  ],
+}]

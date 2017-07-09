@@ -1,0 +1,64 @@
+[
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Sourcegear Vault",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/sourcegear-vault/vault.sublime-settings"},
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/vault.sublime-settings"},
+                                "caption": "Settings – User"
+                            },
+                            {
+                                "caption": "Settings – More",
+                                "children":
+                                [
+                                    {
+                                        "command": "open_file",
+                                        "args": {
+                                            "file": "${packages}/User/vault (Windows).sublime-settings",
+                                            "platform": "Windows"
+                                        },
+                                        "caption": "OS Specific – User"
+                                    },
+                                    {
+                                        "command": "open_file",
+                                        "args": {
+                                            "file": "${packages}/User/vault (OSX).sublime-settings",
+                                            "platform": "OSX"
+                                        },
+                                        "caption": "OS Specific – User"
+                                    },
+                                    {
+                                        "command": "open_file",
+                                        "args": {
+                                            "file": "${packages}/User/vault (Linux).sublime-settings",
+                                            "platform": "Linux"
+                                        },
+                                        "caption": "OS Specific – User"
+                                    }
+                                ]
+                            },
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

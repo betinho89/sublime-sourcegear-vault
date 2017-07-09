@@ -1,0 +1,25 @@
+[{
+  "caption": "Vault",
+  "children": [
+    {
+      "caption": "Get Latest version",
+      "command": "getlastversion",
+    },
+    {
+      "caption": "Check out",
+      "command": "checkout",
+    },
+    {
+      "caption": "Check in",
+      "command": "checkin",
+    },
+    {
+      "caption": "Undo Check out",
+      "command": "undocheckout",
+    },
+    {
+      "caption": "Properties",
+      "command": "listobjectproperties",
+    },
+  ],
+}]

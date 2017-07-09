@@ -1,0 +1,8 @@
+{
+  "sublime_text": "*",
+  "dependencies": [],
+  "platforms": ["*"],
+  "description": "Provides an interface between Sourcegear Vault and Sublime",
+  "version": "1.0.0",
+  "url": ""
+}
