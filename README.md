@@ -50,8 +50,3 @@ Manually:
 ![Screenshot](http://betinho89.com/sublime-sourcegear-vault/plugin_sublime_vault_context_file.jpg)
  - **Open Terminal at Project Folder** via the sidebar context menu.
 ![Screenshot](http://betinho89.com/sublime-sourcegear-vault/plugin_sublime_vault_context_sidebar.jpg)
-
-## Downloads
-
-* [Sublime Text 3](http://www.sublimetext.com/3)
-* [Vault](https://sourcegear.com/vault/)
