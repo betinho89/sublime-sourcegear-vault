@@ -55,3 +55,7 @@ Manually:
 
 1. Vault path not found, in windows the path need have double slashes `\\`.
 2. Add "vault.exe" to the list of allowed applications in your antivirus.
+
+## License
+
+Licensed under the MIT license.
