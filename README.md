@@ -48,9 +48,9 @@ Manually:
 ```
 ## Usage
 
- - **Open Terminal at File** via the editor context menu.
+ - **Open Vault at File** via the editor context menu.
 ![Screenshot](http://betinho89.com/sublime-sourcegear-vault/plugin_sublime_vault_context_file.jpg)
- - **Open Terminal at Project Folder** via the sidebar context menu.
+ - **Open Vault at Project Folder** via the sidebar context menu.
 ![Screenshot](http://betinho89.com/sublime-sourcegear-vault/plugin_sublime_vault_context_sidebar.jpg)
 
 ## Common problems
