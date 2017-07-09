@@ -50,3 +50,8 @@ Manually:
 ![Screenshot](http://betinho89.com/sublime-sourcegear-vault/plugin_sublime_vault_context_file.jpg)
  - **Open Terminal at Project Folder** via the sidebar context menu.
 ![Screenshot](http://betinho89.com/sublime-sourcegear-vault/plugin_sublime_vault_context_sidebar.jpg)
+
+## Common problems
+
+1. Vault path not found, in windows the path need have double slashes `\\`.
+2. Add "vault.exe" to the list of allowed applications in your antivirus.
