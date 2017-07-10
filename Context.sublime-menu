@@ -3,23 +3,49 @@
   "children": [
     {
       "caption": "Get Latest version",
-      "command": "getlastversion",
+      "command": "vault",
+      "args": {
+        "parameters": {
+          "cmd_vault": "GET",
+        },
+      },
     },
     {
       "caption": "Check out",
-      "command": "checkout",
+      "command": "vault",
+      "args": {
+        "parameters": {
+          "cmd_vault": "CHECKOUT",
+        },
+      },
     },
     {
       "caption": "Check in",
-      "command": "checkin",
+      "command": "vault",
+      "args": {
+        "parameters": {
+          "cmd_vault": "CHECKIN",
+          "comment": true,
+        },
+      },
     },
     {
       "caption": "Undo Check out",
-      "command": "undocheckout",
+      "command": "vault",
+      "args": {
+        "parameters": {
+          "cmd_vault": "UNDOCHECKOUT",
+        },
+      },
     },
     {
-      "caption": "Properties",
-      "command": "listobjectproperties",
+      "caption": "Show properties",
+      "command": "vault",
+      "args": {
+        "parameters": {
+          "cmd_vault": "LISTOBJECTPROPERTIES",
+        },
+      },
     },
   ],
 }]
