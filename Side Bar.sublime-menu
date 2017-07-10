@@ -3,28 +3,54 @@
   "children": [
     {
       "caption": "Get Latest version",
-      "command": "getlastversion",
-      "args": {"paths": []},
+      "command": "vault",
+      "args": {
+        "paths": [],
+        "parameters": {
+          "cmd_vault": "GET",
+        },
+      },
     },
     {
       "caption": "Check out",
-      "command": "checkout",
-      "args": {"paths": []},
+      "command": "vault",
+      "args": {
+        "paths": [],
+        "parameters": {
+          "cmd_vault": "CHECKOUT",
+        },
+      },
     },
     {
       "caption": "Check in",
-      "command": "checkin",
-      "args": {"paths": []},
+      "command": "vault",
+      "args": {
+        "paths": [],
+        "parameters": {
+          "cmd_vault": "CHECKIN",
+          "comment": true,
+        },
+      },
     },
     {
       "caption": "Undo Check out",
-      "command": "undocheckout",
-      "args": {"paths": []},
+      "command": "vault",
+      "args": {
+        "paths": [],
+        "parameters": {
+          "cmd_vault": "UNDOCHECKOUT",
+        },
+      },
     },
     {
-      "caption": "Properties",
-      "command": "listobjectproperties",
-      "args": {"paths": []},
+      "caption": "Show properties",
+      "command": "vault",
+      "args": {
+        "paths": [],
+        "parameters": {
+          "cmd_vault": "LISTOBJECTPROPERTIES",
+        },
+      },
     },
   ],
 }]
