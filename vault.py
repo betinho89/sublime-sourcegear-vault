@@ -7,6 +7,7 @@ import sys
 import subprocess
 import locale
 
+CMD_VAULT = ''
 COMMENTSTRING = ''
 CURPATH = []
 HOST = ''
@@ -181,28 +182,32 @@ def run_my_cmd(path, scommand):
     except:
         print("Unexpected error({0}): {1}".format(sys.exc_info()[0], sys.exc_info()[1]))
 
-class CheckoutCommand(sublime_plugin.WindowCommand):
+class VaultCommand(sublime_plugin.WindowCommand):
     def run(self, paths=[], parameters=None):
         bcontinue = set_default_options()
-
         if not bcontinue:
             return
+        if not parameters:
+            return
+
+        global CMD_VAULT
+        CMD_VAULT = parameters['cmd_vault']
 
         path = get_path(self, paths)
         if not path:
             return
 
-        run_my_cmd(path, "CHECKOUT")
-
-class CheckinCommand(sublime_plugin.WindowCommand):
-    def run(self, paths=[], parameters=None):
         global CURPATH
-        path = get_path(self, paths)
-        if not path:
-            return
-
         CURPATH = path
-        self.window.show_input_panel('Comment: ', '', self.on_input_comment, None, None)
+
+        bneedcomment = False
+        if 'comment' in parameters:
+            bneedcomment = parameters['comment']
+
+        if bneedcomment:
+            self.window.show_input_panel('Comment: ', '', self.on_input_comment, None, None)
+        else:
+            run_my_cmd(path, CMD_VAULT)
 
     def on_input_comment(self, sinput):
         sinput = sinput.strip()
@@ -217,43 +222,4 @@ class CheckinCommand(sublime_plugin.WindowCommand):
             if not bcontinue:
                 return
 
-            run_my_cmd(CURPATH, "CHECKIN")
-
-class GetlastversionCommand(sublime_plugin.WindowCommand):
-    def run(self, paths=[], parameters=None):
-        bcontinue = set_default_options()
-
-        if not bcontinue:
-            return
-
-        path = get_path(self, paths)
-        if not path:
-            return
-
-        run_my_cmd(path, "GET")
-
-class UndocheckoutCommand(sublime_plugin.WindowCommand):
-    def run(self, paths=[], parameters=None):
-        bcontinue = set_default_options()
-
-        if not bcontinue:
-            return
-
-        path = get_path(self, paths)
-        if not path:
-            return
-
-        run_my_cmd(path, "UNDOCHECKOUT")
-
-class ListobjectpropertiesCommand(sublime_plugin.WindowCommand):
-    def run(self, paths=[], parameters=None):
-        bcontinue = set_default_options()
-
-        if not bcontinue:
-            return
-
-        path = get_path(self, paths)
-        if not path:
-            return
-
-        run_my_cmd(path, "LISTOBJECTPROPERTIES")
+            run_my_cmd(CURPATH, CMD_VAULT)
