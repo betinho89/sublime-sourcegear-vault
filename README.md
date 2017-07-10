@@ -4,16 +4,16 @@
 
 ## About
 
-This is a Sublime Text plugin allowing have a interface between Vault and Sublime.
+This is a Sublime Text plugin that allows to have an interface between Vault and Sublime.
 
 ![Screenshot](http://betinho89.com/sublime-sourcegear-vault/plugin_sublime_vault.png)
 
-The plugin allows you to perform five frequently used vault operations.
+The plugin allows you to perform five frequently used Vault operations.
 1. `Get Latest version`. Retrieve the latest version of files or folders in the repository.
 2. `Check out`. Checkout files from the repository.
 3. `Check in`. Commit the items in the pending changeset list specified by repositorypath(s).
 4. `Undo Check out`. Undo a checkout, reverting changes back to the data in the repository.
-5. `Properties`. Display the properties of the latest version of a file or folder.
+5. `Properties`. Display the properties of the latest version from a file or folder.
 
 ## Installation
 
@@ -22,7 +22,7 @@ First of all, be sure you have [Vault Client](https://sourcegear.com/vault/downl
 With [Package Control](http://wbond.net/sublime_packages/package_control):
 
 1. Run “Package Control: Add Repository” command, paste the github URL `https://github.com/betinho89/sublime-sourcegear-vault/`.
-2. Run “Package Control: Install Package” command, find and install `sublime-sourcegear-vault` plugin.
+2. Run “Package Control: Install Package” command, then find and install sublime-sourcegear-vault plugin.
 2. Restart ST editor (if required)
 
 Manually:
@@ -55,7 +55,7 @@ Manually:
 
 ## Common problems
 
-1. Vault path not found, in windows the path need have double slashes `\\`.
+1. Vault path not found, in Windows the path need have double slashe `\\`.
 2. Add "vault.exe" to the list of allowed applications in your antivirus.
 
 ## License
