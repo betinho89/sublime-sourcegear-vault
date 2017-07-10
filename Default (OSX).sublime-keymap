@@ -1,0 +1,48 @@
+[
+  {
+    "keys": ["super+alt+g"],
+    "command": "vault",
+    "args": {
+      "parameters": {
+        "cmd_vault": "GET",
+      },
+    },
+  },
+  {
+    "keys": ["super+alt+o"],
+    "command": "vault",
+    "args": {
+      "parameters": {
+        "cmd_vault": "CHECKOUT",
+      },
+    },
+  },
+  {
+    "keys": ["super+alt+i"],
+    "command": "vault",
+    "args": {
+      "parameters": {
+        "cmd_vault": "CHECKIN",
+        "comment": true,
+      },
+    },
+  },
+  {
+    "keys": ["super+alt+z"],
+    "command": "vault",
+    "args": {
+      "parameters": {
+        "cmd_vault": "UNDOCHECKOUT",
+      },
+    },
+  },
+  {
+    "keys": ["super+alt+l"],
+    "command": "vault",
+    "args": {
+      "parameters": {
+        "cmd_vault": "LISTOBJECTPROPERTIES",
+      },
+    },
+  },
+]
