@@ -42,7 +42,6 @@ Manually:
   "repositoryname": "",       // Repository to connect to.
 
   "vault_path": "",           // Replace with your own path to vault.exe
-  "isdebug": true,            // Enable or disable messages on the console
   "show_success": true        // Enables or disables a message to be displayed after each operation
 }
 ```
