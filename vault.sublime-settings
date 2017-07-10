@@ -1,6 +1,6 @@
 {
   "host": "",
-  "isdebug": true,
+  "isdebug": false,
   "password": "",
   "repositoryname": "",
   "show_success": true,
