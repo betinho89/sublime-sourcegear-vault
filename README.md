@@ -22,7 +22,7 @@ First of all, be sure you have [Vault Client](https://sourcegear.com/vault/downl
 With [Package Control](http://wbond.net/sublime_packages/package_control):
 
 1. Run “Package Control: Add Repository” command, paste the github URL `https://github.com/betinho89/sublime-sourcegear-vault/`.
-2. Run “Package Control: Install Package” command, then find and install sublime-sourcegear-vault plugin.
+2. Run “Package Control: Install Package” command, then find and install `sublime-sourcegear-vault plugin`.
 2. Restart ST editor (if required)
 
 Manually:
