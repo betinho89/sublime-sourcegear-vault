@@ -45,6 +45,17 @@ Manually:
   "show_success": true        // Enables or disables a message to be displayed after each operation
 }
 ```
+
+## Key Binds
+
+| Windows | Command |
+|---------|---------|
+|<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>G</kbd>|`Get Latest version`
+|<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>O</kbd>|`Check out`
+|<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>I</kbd>|`Check in`
+|<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>Z</kbd>|`Undo Check out`
+|<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>L</kbd>|`Properties`
+
 ## Usage
 
  - **Open Vault at File** via the editor context menu.
