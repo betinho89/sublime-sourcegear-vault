@@ -50,11 +50,11 @@ Manually:
 
 | Windows | Command |
 |---------|---------|
-|<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>G</kbd>|`Get Latest version`
-|<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>O</kbd>|`Check out`
-|<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>I</kbd>|`Check in`
-|<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>Z</kbd>|`Undo Check out`
-|<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>L</kbd>|`Properties`
+|<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>G</kbd>|Get Latest version
+|<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>O</kbd>|Check out
+|<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>I</kbd>|Check in
+|<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>Z</kbd>|Undo Check out
+|<kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>L</kbd>|Properties
 
 ## Usage
 
